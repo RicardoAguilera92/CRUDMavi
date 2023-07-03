@@ -1,6 +1,8 @@
 <?php
 class metodo
 {
+
+    
     public function mostrar($sql)
     {
         $conectar = new Connect();

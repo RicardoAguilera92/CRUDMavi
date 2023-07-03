@@ -11,28 +11,7 @@ class Connect {
         return $conexion;                
      }
     
+
+     
 }
 
-
-    // function Connection () {
-    //     $server = "localhost";
-    //     $database = "mavi_occidente";
-    //     $username = "root";
-    //     $password = "";
-
-    //     $mysqli = mysqli_connect($server, $username, $password);
-
-    //     mysqli_select_db($mysqli, $database);
-
-    //     return $mysqli;
-
-
-
-    
-    
-    
-
-
-    //$mysqli = new mysqli ($server,$username, $password, $database);
-
-  

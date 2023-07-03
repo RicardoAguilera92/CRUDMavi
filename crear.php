@@ -18,14 +18,8 @@
 
     $obj = new metodo();
     if($obj->crear($datos)==1){
-        header("Location: index.php");
+        header("Location: clientes.php");
     }else{
         echo "Fallo el crear clientes";
     }
 
-    // $sql = "INSERT INTO clientes VALUES('$id', '$nombres', '$apellido_paterno', '$apellido_materno', '$domicilio', '$correo')";
-    // $query = mysqli_query($con, $sql);
-
-    // if($query){
-    //     Header("Location: index.php");
-    

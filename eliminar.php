@@ -8,7 +8,7 @@ require_once "metodos.php";
 $obj = new metodo();
 
 if ($obj->eliminar($id) == 1) {
-    header("Location: index.php");
+    header("Location: clientes.php");
 } else {
     echo "Fallo al eliminar";
 }

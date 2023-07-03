@@ -14,13 +14,13 @@ $ver = mysqli_fetch_row($result);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
     <title>Editar usuarios</title>
 
 </head>
 
 <body>
-    <div>
+    <div class="users-form">
         <form action="editar.php" method="POST">
             <input type="text" hidden="" value = "<?php echo $id ?>" name="id">
             <input type="text" name="nombres" placeholder="Nombre" value="<?php  echo $ver[0] ?>">

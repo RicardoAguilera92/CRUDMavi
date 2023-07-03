@@ -21,7 +21,7 @@
     $obj = new metodo();
 
     if($obj->editar($datos)==1){
-        header("Location: index.php");
+        header("Location: clientes.php");
     }else{
         echo "Fallo el editar clientes";
     }
