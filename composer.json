@@ -1,0 +1,13 @@
+{
+    "name": "ricardo/crud-mavi",
+    "description": "CRUD para empresa MAVI",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "riagma5",
+            "email": "ricardo.aguilera92@icloud.com"
+        }
+    ],
+    "require": {}
+}
