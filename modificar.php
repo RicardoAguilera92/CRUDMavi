@@ -1,5 +1,5 @@
 <?php
-require_once "Connection.php";
+require_once "./database/Connection.php";
 $conectar = new Connect();
 $coneccion = $conectar->Connection();
 $id = $_GET['id'];

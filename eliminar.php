@@ -2,8 +2,8 @@
 
 $id = $_GET['id'];
 
-require_once "Connection.php";
-require_once "metodos.php";
+require_once "./database/Connection.php";
+require_once "./modulos/metodos.php";
 
 $obj = new metodo();
 

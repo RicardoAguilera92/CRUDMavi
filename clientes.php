@@ -1,6 +1,6 @@
 <?php
-require_once "Connection.php";
-require_once "metodos.php";
+require_once "./database/Connection.php";
+require_once "./modulos/metodos.php";
 
 ?>
 
@@ -18,6 +18,7 @@ require_once "metodos.php";
 </head>
 
 <body>
+    <a href="index.php">salir</a>
     <div class="users-form">
         <form action=" crear.php" method="POST">
             <h1>Crear usuario</h1>
